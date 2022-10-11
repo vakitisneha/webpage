@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Registrationform</title>
+    <style>
+        h1{
+          text-align: center;
+        }
+        fieldset{
+            margin-left: 10px;
+            margin-right: 100px;
+        }
+        button{
+            text-align: center;
+            margin-left: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h2 align ="center"> User Profile</h2>
+    <form action="dataupdate.html">
+        <table border="0" align ="center" width="500">
+            <tr>
+                <td><label for="text" > First Name: </label>
+                <br><input type="Name" placeholder="Enter your first name" required></td>
+                <td><label for="text" > Last Name: </label>
+                    <br><input type="Name" placeholder="Enter your last name" required></td>
+                </tr>
+                <tr>
+                <td><label for="text" > Email ID: </label>
+                    <br><input type="Email" placeholder="Enter your mail" required></td>
+                    <td><label for="text" > Phone number: </label>
+                        <br><input type="Name" placeholder="Enter your phone number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="text">Address:*</label><br>
+                        <textarea name="address" cols="15",rows="50" ></textarea></td>
+                        <td>
+                            <div id="Profile-container">
+                                <label class="header">profile_photo</label>
+                                
+                            <input id="imageupload" type="file" name="profile_photo" placeholder="photo" required="" capture>
+                            </div>
+                        </td>
+                        
+                    </tr>    </table>
+                    <button >Submit</button>
+</body>
+</html>

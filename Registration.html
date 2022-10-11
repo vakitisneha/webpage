@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Registrationform</title>
+    <style>
+        h1{
+          text-align: center;
+        }
+        fieldset{
+            margin-left: 10px;
+            margin-right: 100px;
+        }
+        button{
+            text-align: center;
+            margin-left: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h2 align ="center"> Registration Form</h2>
+    <form action="welcome.html">
+        <table border="0" align ="center">
+    <tr>
+        <td><label for="text" >Name:*   </label></td>
+        <td><input type="Name" placeholder="Enter your full name" required></td>
+        </tr>
+         <tr>
+            <td><label for="text">password:*    </label></td>
+       <td><input type="password" placeholder="enter your password" required ></td>
+         </tr>
+         <tr>
+       <td><label for="text" >Email ID:*</label></td>
+       <td><input type="Email" placeholder="Enter your EMail" required></td>
+       </tr>
+       <tr>
+       <td><label for="text" >Phone number:*</label></td>
+       <td><input type="Phone number" placeholder="Enter your phone number" required></td>
+       </tr>
+       <tr>
+        <td><label for ="text">Gender:*</label></td>
+       <td><input type="radio" name="gender">male</td>
+        <td><input type="radio" name="gender">female</td>
+</tr>
+
+    <tr>
+      <td><label for="text">Language Known:*</label></td>
+      <td><input type ="checkbox" name="lang">English<br>
+      <input type ="checkbox" name="lang">Hindi<br>
+      <input type ="checkbox" name="lang">Telugu<br>
+      <input type ="checkbox" name="lang">Tamil</td>
+
+    </tr>
+    <tr>
+        <td><label for="text">Address:*</label></td>
+        <td><textarea name="address" cols="15",rows="5" ></textarea></td>
+    
+    </tr></table>
+    <button >Submit</button>
+       <input type ="reset">
+       </table>
+       <br><br>
+</body>
+</html>
